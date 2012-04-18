@@ -1,0 +1,28 @@
+Mike Starr
+CS 540
+HW #1
+
+To compile: run
+	make
+
+To test, use the command 
+	java BuildAndTestDecisionTree <trainsetFilename> <testSetFilename>
+
+
+
+Discussion:
+
+
+	Both of the decision trees appear to have generalized the data quite well.  To begin, the Titanic
+dataset produced a tree which, among other things, showed that woman and children had a much greater
+change of survival than adult males did.  This matches closely with the passanger's sentiment on the Titanic
+that women and children should be saved first.
+
+	Similarly, the house data matches the sentiments of both republican and democrat party's, from a
+non-data point of view.
+
+	Beyond the higher level accuracy of the decision trees, both of the training sets produced trees
+which very accurately, and succinctly, were able to predict future data.
+
+	Because both training sets only had binary features, it is understandable that some mistakes were made.
+But again, the trees very simply described the patterns within the datasets.
